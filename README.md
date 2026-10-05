@@ -2,6 +2,7 @@
 First: download ankergames_library.txt by clicking download raw file
 Second: open playnite and click on the controller in the top left corner, then hover over extensions and click on Interactive SDK PowerShell
 Third: Copy and paste the script below
+```powershell
 # Read your text file from the desktop
 $filePath = "$env:USERPROFILE\Desktop\ankergames_library.txt"
 
@@ -58,5 +59,6 @@ foreach ($line in $lines) {
 }
 
 Write-Host "Success! All games imported into 'Download' category!" -ForegroundColor Green
+```
 
 Once done all the games will be under downloads category (you will have to switch over from library to category), from there i recommend to select detail view and then simply click on AnkerGames Download Page.
