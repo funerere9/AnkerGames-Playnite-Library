@@ -2,7 +2,7 @@ Following this tutorial will make it where you can easily find (almost)any pc ga
 
 # How to Setup
 
-1. **Download the library:** Download `ankergames_library.txt` by clicking the "Download raw file" button above.
+1. **Download the library:** Download `ankergames_library.txt` by clicking the "Download raw file" button.
 2. **Open Playnite Console:** Open Playnite, click on the controller icon in the top-left corner, hover over **Extensions**, and click on **Interactive SDK PowerShell**.
 3. **Run the Script:** Copy and paste the PowerShell script.
 ```powershell
