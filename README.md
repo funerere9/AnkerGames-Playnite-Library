@@ -67,7 +67,6 @@ Write-Host "Success! All games imported into 'Download' category!" -ForegroundCo
 ## How to Get to Download Page
 Once the script has finished running, your imported games will appear under the Download category:
 
-* 
 * Change your Playnite library grouping from Library to Category.
 * Switch to Detail View and click on AnkerGames Download Page to access the corresponding download link.
 
