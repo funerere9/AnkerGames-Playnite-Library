@@ -1,7 +1,10 @@
-# How to install
-First: download ankergames_library.txt by clicking download raw file
-Second: open playnite and click on the controller in the top left corner, then hover over extensions and click on Interactive SDK PowerShell
-Third: Copy and paste the script below
+Following this tutorial will make it where you can easily find (almost)any pc game you want to download from your playnite launcher.
+
+# How to Setup
+
+1. **Download the library:** Download `ankergames_library.txt` by clicking the "Download raw file" button above.
+2. **Open Playnite Console:** Open Playnite, click on the controller icon in the top-left corner, hover over **Extensions**, and click on **Interactive SDK PowerShell**.
+3. **Run the Script:** Copy and paste the PowerShell script.
 ```powershell
 # Read your text file from the desktop
 $filePath = "$env:USERPROFILE\Desktop\ankergames_library.txt"
@@ -61,4 +64,8 @@ foreach ($line in $lines) {
 Write-Host "Success! All games imported into 'Download' category!" -ForegroundColor Green
 ```
 
-Once done all the games will be under downloads category (you will have to switch over from library to category), from there i recommend to select detail view and then simply click on AnkerGames Download Page.
+# How to Get to Download Page
+
+Once done, all the games will be under the **Download** category. 
+* Switch your Playnite library grouping from **Library** to **Category**.
+* Select **Detail View** and simply click on **AnkerGames Download Page** to open the link this will take you to the download page.
