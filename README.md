@@ -14,4 +14,4 @@ Once the script has finished running, your imported games will appear under the 
 * 
 
 For the complete and unabridged PowerShell script and setup instructions, please refer to the source documentation.
-   ONCE FINISHED YOU MAY DELETE THE LIBRARY FILE
+   ONCE FINISHED YOU MAY DELETE THE LIBRARY FILE.
